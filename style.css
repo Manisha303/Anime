@@ -1,0 +1,156 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    background-color: rgb(10, 85, 85);
+}
+.para
+{
+    font-size: 40px;
+    color: white;
+    padding:20px 20px;
+}
+.nav
+{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-list li
+{
+    font-size: 20px;
+    list-style: none;
+    display: inline-block;
+    padding:35px 8px;
+    color: white;
+}
+.nav-list
+{
+    padding-left: 350px;
+}
+a{
+    text-decoration:none;
+    color: azure;
+}
+.index
+{
+    background-color:rgb(61, 187, 145);
+    position: relative;
+    padding-bottom: 10px;
+    justify-content:center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+.logo
+{
+    padding: 50px 50px;
+    width:300px;
+    height:300px;
+}
+
+
+
+
+
+.portfolio
+{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(10, 85, 85);
+    padding-top:50px;
+}
+.pic
+{
+    list-style: none;
+    display:flex;
+    justify-content: space-evenly;
+    padding: 30px 250px;
+}
+img
+{
+    border-radius: 10%;
+    margin: 0px;
+}
+
+
+
+
+
+.about
+{
+    background-color:rgb(61, 187, 145);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+.about-para
+{
+    background-color:rgb(61, 187, 145);
+    font-size: 25px;
+    text-align: center;
+    color: azure;
+    flex-direction: column;
+    padding-bottom: 10px;
+    
+}
+.about-ul 
+{
+    list-style: none;
+    display: flex;
+    padding: 30px 60px;
+    text-align: justify;
+}
+.button
+{
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    background-color: aquamarine;
+    border-radius:10px;
+    border-color:white;
+}
+
+
+
+
+
+.contact
+{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(10, 85, 85);
+}
+.contact-label
+{
+    text-align:center;
+    margin: 20px;
+    font-size: 30px;
+    padding:16px;
+}
+input{
+    width: 50%;
+    height: 10%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-top-color: white;
+    border-left-color: white;
+    border-right-color: white; 
+    font-size: 25px;
+}
+.contact-but
+{
+    width: 10%;
+    height: 10%;
+    color: white;
+    background-color: rgb(26, 148, 107);
+    border-color: aliceblue;
+    border-radius: 10px;
+    display:inline-block;
+}
